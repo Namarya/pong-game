@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("./assets/bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+canvas {
+  border: 2px solid white;
+}
+.score {
+  width: 800px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 50px;
+}
+.score span {
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+}
